@@ -1,7 +1,7 @@
 /* Base */
 body {
   margin: 0;
-   font-family: 'Roboto', cursive, sans-serif;
+ 
   background-color: #1a1f2b;
   color: #f0f0f0;
 }
@@ -34,7 +34,7 @@ nav.nav-bar ul {
 nav.nav-bar li a {
   text-decoration: none;
   color: white;
-  font-family: cursive;
+ 
   font-size: 18px;
   padding: 8px 12px;
   transition: color 0.3s;
@@ -102,7 +102,7 @@ section.principal {
   color: #58d9f6;
   font-size: 36px;
   margin-bottom: 30px;
-  font-family: 'Trebuchet MS', sans-serif;
+
 }
 
 /* Grille d'images des jeux */
@@ -198,4 +198,5 @@ section.principal {
     height: 100vh;
   }
 }
+
 
