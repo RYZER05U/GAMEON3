@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nos Jeux - GameVerse</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: cursive;
+      background-color: #1a1f2b;
+      color: #f0f0f0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #10141d;
+      padding: 25px 40px;
+      border-bottom: 1px solid #2f4f66;
+    }
+
+    .logo {
+      font-size: 1.6rem;
+      color:#58d9f6 ;
+      font-weight: bold;
+    }
+
+    .nav-links a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      font-family: cursive;
+      font-size: 18px;
+      
+    }
+
+    .nav-links a:hover {
+      color: #58d9f6;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.4rem;
+      color: #58d9f6;
+    }
+
+    .game-item {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      background-color: #252b39;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .game-item:hover {
+      transform: translateY(-3px);
+    }
+
+    .game-item img {
+      width: 100%;
+      max-width: 300px;
+      height: 180px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    .game-info {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .game-info h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      color: #d0eaff;
+    }
+
+    .game-info p {
+      margin-top: 8px;
+      line-height: 1.5;
+      color: #c2cbd9;
+    }
+
+    .game-link {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #10141d;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #2f4f66;
+    }
+
+    @media (max-width: 700px) {
+      .game-item {
+        flex-direction: column;
+        text-align: center;
+      }
+      .game-item img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="logo">🎮 GLOBAL TECH</div>
+    <div class="nav-links">
+      <a href="index.html.html">Accueil</a>
+      <a href="Jeux.html">Jeux</a>
+      <a href="#">Actualités </a>
+      <a href="Apropos.html">À propos</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1> Jeux</h1>
+
+<!-- Counter-Strique2 -->
+ <a href="Astuces-Counter-Strique2.html" class="game-link">
+    <div class="game-item" >
+     
+      <img src="images/jeu2.jpg" alt="Counter-Strike 2">
+      <div class="game-info">
+        <h2>Counter-Strike 2</h2>
+        <p>Le FPS compétitif ultime. Graphismes modernisés, netcode amélioré et mécaniques précises. Prépare-toi à des duels intenses.</p>
+    
+      </div>
+       </div>
+    </a>
+
+
+
+<!-- Valorant -->
+    
+  <a href="Astuces-Valorant.html" class="game-link">
+    <div class="game-item" >      
+      <img src="images/jeu1.jpg" alt="Valorant">
+      <div class="game-info">
+        <h2>Valorant</h2>
+        <p>Un jeu de tir tactique avec des agents uniques et des pouvoirs spéciaux. Travail d'équipe et stratégie sont les clés de la victoire.</p>
+      </div>    
+    </div>
+    </a>
+  
+<a href="Astuces-Ghost.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeuP(17).jpg" alt="Ghost Recon Breackpoint">
+      <div class="game-info">
+        <h2>Ghost Recon Breakpoint</h2>
+        <p>Infiltration et action en monde ouvert. Affronte des mercenaires dans un environnement hostile et stratégique.</p>  
+      </div>
+    </div>
+</a>
+
+  <a href="Astuces-LOL.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeu9.jpg" alt="LOL">
+      <div class="game-info">
+        <h2>League of Legends</h2>
+        <p>MOBA légendaire. Rejoins des millions de joueurs et maîtrise ton champion pour dominer la faille de l’invocateur.</p>
+      </div>
+    </div>
+</a>
+
+<a href="Astuces-Apex.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeu20.jpg" alt="Apex">
+      <div class="game-info">
+        <h2>Apex Legends</h2>
+        <p>Battle Royale futuriste rapide et fluide. Choisis ta légende et coordonne-toi pour devenir le dernier survivant.</p>
+      </div>
+    </div>
+    </a>
+
+    <a href="Astuces-FC25.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeu3.jpg" alt="FC25">
+      <div class="game-info">
+        <h2>FC 25</h2>
+        <p>Maitrise les terrains virtuels de FC25, le jeu de football ultime où technique, stratégie et sang froid font la différene.</p>
+      </div>
+    </div>
+  </a>
+
+  <a href="Astuces-FF.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeu4.jpg" alt="Free Fire">
+      <div class="game-info">
+        <h2>Free fire</h2>
+        <p>Affrontements rapides, stratégie pure. Plonge dans l’arène et deviens le dernier survivant.</p>
+      </div>
+    </div>
+    </a>
+
+    <a href="Astuces-Genshic Impact.html" class="game-link">
+     <div class="game-item">
+      <img src="images/jeuP(6).jpg" alt="Genshin Impact">
+      <div class="game-info">
+        <h2>Genshin Impact</h2>
+        <p>Explore un monde ouvert magnifique rempli de mystères, de combats et d'aventures. Collectionne des personnages uniques et forge ton destin.</p>     
+      </div>
+    </div>
+    </a>
+
+    <a href="Astuces-Minecraft.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeu10.jpg" alt="Minecraft">
+      <div class="game-info">
+        <h2>Minecraft</h2>
+        <p>Crée, explore et survive dans un monde infini de blocs. Laisse libre cours à ton imagination et construis tout ce que tu désires.</p>
+      </div>
+    </div>
+    </a>
+
+   <a href="Astuces-Fortnite.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeuP(10).jpg" alt="Fortnite">
+      <div class="game-info">
+        <h2>Fortnite</h2>
+        <p>Construis, combats et survive dans le monde coloré de Fortnite. Participe à des batailles épiques en solo ou en équipe.</p>
+      </div>
+      </div>
+      </a>
+    
+      <a href="Astuces-Roblox.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeuP(12).jpg" alt="Roblox">
+      <div class="game-info">
+        <h2>Roblox</h2>
+        <p>Plateforme de jeux infinie et créative. Joue, crée, et explore des mondes sans limite avec des millions d'autres joueurs.</p>
+      </div>
+    </div>
+     </a>
+
+     <a href="Astuces-Overwatch.html" class="game-link">
+    <div class="game-item" > 
+      <img src="images/jeuP(7).jpg" alt="Overwatch">
+      <div class="game-info">
+        <h2>Overwatch</h2>
+        <p>FPS d’équipe ultra dynamique. Choisis ton héros, unis tes forces et change le cours de la bataille.</p>
+      </div>
+  </div>
+  </a>
+   
+  <a href="Astuces-Doom.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeuP(8).jpg" alt="Call of Duty">
+      <div class="game-info">
+        <h2>Doom The Dark Ages</h2>
+        <p>FPS brutal à l’ambiance médiévale sombre. Incarne le Slayer, manie le bouclier-tronçonneuse et affronte les légions infernales dans une guerre épique.</p>
+      </div>
+    </div>
+ </a>
+
+ <a href="Astuces-ACC.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeu14.jpg" alt="Asseto corsa competizione">  
+      <div class="game-info">
+         <h2>Assetto Corsa Competizione</h2>
+        <p>Simulation de course réaliste. Pilote des voitures de sport sur des circuits emblématiques avec une physique avancée et des graphismes époustouflants.</p>          
+      </div>
+    </div>
+    </a>
+
+  <a href="Astuces-Rainbow.html" class="game-link">
+    <div class="game-item">
+      <img src="images/jeuP(13).jpg" alt="Rainbow Six Siege">
+      <div class="game-info">
+        <h2>Rainbow Six Siege</h2>
+        <p>Stratégie et destruction en équipe. Défends ou attaque des sites avec des agents spécialisés dans un combat tactique intense.</p>
+     
+      </div>
+  </div>
+  </a>
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; 2025 GLOBAL TECH | Tous droits réservés.
+  </footer>
+
+</body>
+</html>

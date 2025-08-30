@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - GAMEON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f0f2f5; ;
+            color:  #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e63946;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>À propos de GAMEON</h1>
+        <p>
+            Bienvenue sur <strong>GAMEON</strong>, votre plateforme dédiée aux astuces et conseils pour une grande variété de jeux vidéo ! Que vous soyez un joueur débutant ou expérimenté, notre but est de vous aider à progresser et à profiter au maximum de vos jeux préférés.
+        </p>
+        <p>
+            <strong>IMPORTANT :</strong> Nous ne sommes en aucun cas des sponsors ou des partenaires officiels des jeux que nous présentons. Les marques, noms de jeux et contenus mentionnés appartiennent à leurs éditeurs respectifs.
+        </p>
+        <p>
+            Notre mission est uniquement de partager des astuces, des stratégies et des tutoriels basés sur notre expérience personnelle ou celle de la communauté. Nous espérons que vous trouverez nos contenus utiles et inspirants !
+        </p>
+        <p>
+            <strong>Notre Histoire :</strong><br>
+L'aventure de GLOBAL TECH a commencé avec un groupe d’amis passionnés par les jeux vidéo. Ce qui n’était au départ que des discussions tard le soir sur nos jeux préférés s’est peu à peu transformé en une idée plus grande : partager nos astuces avec d'autres joueurs.
+
+Nous avons remarqué que beaucoup de joueurs, comme nous, recherchent parfois des conseils pour progresser, découvrir des secrets ou simplement mieux comprendre certains jeux. Alors, nous avons décidé de créer un espace dédié à cela.
+
+GAMEON est né de cette passion commune : une plateforme indépendante où nous partageons des astuces, des stratégies et des expériences de jeu, sans prétention, mais avec beaucoup d’enthousiasme.
+
+Nous ne sommes pas des pros ni des sponsors, juste des joueurs comme vous, curieux, motivés et heureux de pouvoir aider la communauté.
+
+        </p>
+    </div>
+
+    <form action="mailto:globaltech607@gmail.com" method="post" enctype="text/plain">
+  <label for="name">Nom :</label><br>
+  <input type="text" id="name" name="Nom" required><br><br>
+
+  <label for="note">Note (1 à 5 étoiles) :</label><br>
+  <input type="number" id="note" name="Note" min="1" max="5" required><br><br>
+
+  <label for="avis">Votre avis :</label><br>
+  <textarea id="avis" name="Avis" rows="4" cols="40" required></textarea><br><br>
+
+  <input type="submit" value="Envoyer">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+
+/* Base */
+body {
+  margin: 0;
+  font-family: cursive;
+  background-color: #1a1f2b;
+  color: #f0f0f0;
+}
+
+/* En-tête principal */
+header.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #10141d;
+  padding: 10px 30px;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+header.header img {
+  width: 130px;
+  height: auto;
+}
+
+/* Barre de navigation */
+nav.nav-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav.nav-bar li a {
+  text-decoration: none;
+  color: white;
+  font-family: cursive;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: color 0.3s;
+}
+
+nav.nav-bar li a:hover {
+  color: #58d9f6;
+}
+
+/* Section image de fond */
+.landing-page {
+  background: url("images/L.jpeg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-title {
+  color: #58d9f6;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+/* Section jeux populaires */
+section.principal {
+  padding: 40px 20px;
+}
+
+.jeux-populaires {
+  text-align: center;
+  color: #58d9f6;
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Grille d'images des jeux */
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.items1 {
+  width: 260px;
+  height: auto;
+  border: solid #10141d 2px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.items1:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive : tablettes et petits laptops */
+@media screen and (max-width: 1366px) {
+  header.header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  nav.nav-bar ul {
+    gap: 15px;
+  }
+
+  .big-title {
+    font-size: 32px;
+    padding: 15px;
+  }
+
+  .items1 {
+    width: 220px;
+  }
+}
+
+/* Responsive : mobile */
+@media screen and (max-width: 768px) {
+  header.header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav.nav-bar ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  nav.nav-bar li a {
+    font-size: 16px;
+  }
+
+  .landing-page {
+    height: 80vh;
+  }
+
+  .big-title {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .items1 {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .jeux-populaires {
+    font-size: 28px;
+  }
+}
