@@ -186,7 +186,7 @@ section.principal {
   .landing-page {
     background-size: cover;
     background-position: center top; /* cadrage sur le haut en portrait */
-    height: 100vh;
+    height: 50vh;
   }
 }
 
@@ -198,3 +198,4 @@ section.principal {
     height: 100vh;
   }
 }
+
